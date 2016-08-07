@@ -4,4 +4,10 @@ general:
 machine:
   java:
     version: openjdk8
+  services:
+    - docker
 
+dependencies:
+  override:
+    - docker info
+    - docker build -t ryanjbaxter/ocr-eureka .
