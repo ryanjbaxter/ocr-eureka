@@ -7,7 +7,9 @@ machine:
   services:
     - docker
 
-dependencies:
-  override:
-    - docker info
-    - docker build -t ryanjbaxter/ocr-eureka .
+deployment:
+  hub:
+    branch: master
+    commands:
+      - docker info
+      - docker build -t ryanjbaxter/ocr-eureka .
