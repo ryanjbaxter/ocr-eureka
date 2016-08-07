@@ -1,3 +1,6 @@
+general:
+  artifacts:
+    - "target/"
 machine:
   java:
     version: openjdk8
