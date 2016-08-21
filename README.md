@@ -19,4 +19,4 @@ $ docker run -i -p 8761:8761 ryanjbaxter/ocr-eureka
 
 ## Usage
 
-Once running you can go to `http://localhost:8761 to see the Eureka Dashboard.
+Once running you can go to `http://localhost:8761` to see the Eureka Dashboard.
