@@ -1,4 +1,6 @@
 # ocr-eureka
+[![CircleCI](https://circleci.com/gh/ryanjbaxter/ocr-eureka.svg?style=svg)](https://circleci.com/gh/ryanjbaxter/ocr-eureka)
+
 Eureka server for OCR Spring Cloud sample.  It uses 
 [Eureka from Spring Cloud Netflix](http://cloud.spring.io/spring-cloud-static/spring-cloud.html#spring-cloud-eureka-server).
 
