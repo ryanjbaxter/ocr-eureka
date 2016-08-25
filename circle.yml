@@ -29,6 +29,6 @@ deployment:
       - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
       - docker push ryanjbaxter/ocr-eureka
   production:
-      branch: master
-      commands:
-        - cf push
+    branch: master
+    commands:
+      - cf push
