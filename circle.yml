@@ -24,6 +24,7 @@ deployment:
   production:
     branch: master
     commands:
+      - ./mvnw clean deploy -s settings.xml
       - docker info
       - docker build -t ryanjbaxter/ocr-eureka .
       - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
