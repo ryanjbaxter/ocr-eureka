@@ -1,6 +1,6 @@
 ---
 applications:
 - name: ocr-eureka
-  memory: 512M
-  path: target/ocr-eureka-0.0.1-SNAPSHOT.jar
+  memory: 1024M
+  path: target/ocr-eureka-0.0.2-SNAPSHOT.jar
   host: ocr-eureka-cf
